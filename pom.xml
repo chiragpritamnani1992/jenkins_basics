@@ -133,7 +133,9 @@
             <version>2.19.1</version>
                 <inherited>true</inherited>
             <configuration>
-                <suiteXmlFile>src/main/java/testsuite/testng.xml</suiteXmlFile>
+            <suiteXmlFiles>
+                <suiteXmlFile>src/test/java/testsuite/testng.xml</suiteXmlFile>
+                </suiteXmlFiles>
             </configuration>
     </plugin>
  </plugins>
